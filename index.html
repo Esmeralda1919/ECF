@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Médiatèque</title>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+
+    <h1>Liste des films</h1>
+
+    <div id="divSucces">
+        <p>Film ajouté avec succès</p>
+    </div>
+
+    <div id="divEchec">
+        <p>Erreur dans le formulaire</p>
+    </div>
+
+    <form method="post" id="ajouter_barre" name="formFilm">
+        <input type="text" class="cellule" id="titre" placeholder="Titre du film">
+        <input type="number" class="cellule" id="annee" placeholder="Année de production">
+        <input type="text" class="cellule" id="realisateur" placeholder="Réalisateur">
+        <input type="submit" value="Ajouter" id="ajouterFilm">  
+        <input type="button" value="Annuler" id="annulerFilm">
+    </form>
+
+    <button id="ajouter">Ajouter</button><br><br>
+
+<div id="filtre_div">
+    <label for="filtre" id="filtre_texte">Filtrer par :</label><br>
+
+<select name="fitre_select" id="filtre">
+    <option value="selectionner" id="selectionner">Selectionner</option>
+    <option value="annee" id="annee_filtre">Année</option>
+    <option value="titre" id="titre_filtre">Titre</option>
+</select><br><br>
+
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Titre</th>
+            <th>Année</th>
+            <th>Réalisateur</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+    </tbody>
+</table>
+
+    <script src="app.js"></script>
+
+</body>
+</html> 
