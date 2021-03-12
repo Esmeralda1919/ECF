@@ -1,0 +1,124 @@
+/* TODO */
+
+body {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    margin : 50px;
+  }
+
+body h1{
+  font-size: 40px;
+}
+          /*NOTIFICATION SUCCES*/
+ #divSucces {
+  background:seagreen;
+  width: 500px;
+  /*height: 50px;*/
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+
+          /*NOTIFICATION ECHEC*/
+ #divEchec {
+  background:crimson;
+  width: 650px;
+  /*height: 50px;*/
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+#divEchec p {
+  text-align: center;
+  padding: 20px;
+}
+
+          /*BTN AJOUTER*/
+#ajouter{
+  background-color:royalblue;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  bottom: 40px;
+  position: relative;
+}
+
+            /*BARRE AJOUT FILM*/
+.cellule {
+  font-size: 18px;
+}
+
+#ajouterFilm{
+  background-color:royalblue;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+#annulerFilm{
+  background-color:crimson;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+              /*FILTRE*/
+#filtre_texte{
+  font-size: 18px;
+}
+#filtre{
+  font-size: 17px;
+}
+
+#filtre_div{
+  bottom: 30px;
+  position: relative;
+}
+
+            /*TABLEAU*/
+table{
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+  width: 1200px;
+  
+}
+
+table tr{
+  height: 60px;
+  
+}
+
+table th{
+  text-align: left;
+}
+
+tbody tr:nth-child(odd){
+  background-color:rgba(226, 223, 223, 0.616);
+  
+}
+
+.supprime{
+  width: 110px;
+  background-color:crimson;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  font-size: 17px;
+}
